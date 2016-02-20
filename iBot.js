@@ -139,7 +139,7 @@ if(!isIBotRunning) {
 						API.sendChat(":x: User not found! :x:");
 					}
 				} else {
-					API.sendChat(":cookie: *hands you a cookie (for @" + user + ")* :cookie:");
+					API.sendChat("I love Cookies! :)");
 				}
 			} else {
 				switch (cmd) {
