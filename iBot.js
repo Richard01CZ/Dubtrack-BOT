@@ -118,10 +118,10 @@ if(!isIBotRunning) {
 		}
 	};
 	function userJoinMsg(data) {
-		API.sendChat(":wave: Vítej @" + data.user.username + "! :wave:");
+		API.sendChat(":wave: Unmute Richard01_CZ @" + data.user.username + "! :wave:");
 	}
 	function userLeaveMsg(data) {
-		API.sendChat(":wave: Tak jindy @" + data.user.username + "! :wave:");
+		API.sendChat(":wave: see you soon @" + data.user.username + "! :wave:");
 	}
 	function commandHandler(data) {
 		var msg = data.message;
